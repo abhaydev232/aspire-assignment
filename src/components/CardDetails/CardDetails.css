@@ -1,0 +1,37 @@
+/* CardDetails.css */
+.card-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f8ff;
+  border-radius: 10px;
+  cursor: pointer;
+  max-width: 400px; /* optional */
+  transition: background 0.2s;
+  padding: 7%;
+    margin-top: 9%;
+}
+
+.card-details-container:hover {
+  background-color: #e6f0ff;
+}
+
+.card-details-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-icon {
+  width: 20px;
+  height: 20px;
+  fill: #1e3a8a; /* icon color */
+}
+
+.card-text {
+  font-size: 14px;
+  color:#0C365A;
+  font-weight: 500;
+}
+
+
