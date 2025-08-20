@@ -12,7 +12,7 @@ const Sidebar = () => {
   const logoFill = "#00C853";
   return (
     <aside className="sidebar" style={{ textAlign: "left" }}>
-      <img src={Logo} />
+      <img src={Logo} alt="logo" />
       <div
         style={{
           color: "#55738c",
@@ -25,25 +25,25 @@ const Sidebar = () => {
 
       <nav style={{ marginTop: '20%' }}>
         <a href="#" className="nav-item" style={{ marginBottom: '15%' }}>
-          <img src={Home} />
+          <img src={Home} alt="logo" />
 
           Home
         </a>
         <a href="#" className="nav-item active" style={{ marginBottom: '15%' }}>
-          <img src={Card} />
+          <img src={Card} alt="logo" />
           Cards
         </a>
         <a href="#" className="nav-item" style={{ marginBottom: '15%' }}>
-          <img src={Payments} />
+          <img src={Payments} alt="logo" />
 
           Payments
         </a>
         <a href="#" className="nav-item" style={{ marginBottom: '15%' }}>
-          <img src={Credit} />
+          <img src={Credit} alt="logo" />
           Credit
         </a>
         <a href="#" className="nav-item">
-          <img src={Account} />
+          <img src={Account} alt="logo" />
           Settings
         </a>
       </nav>

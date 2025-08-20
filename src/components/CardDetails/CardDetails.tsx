@@ -11,7 +11,7 @@ const CardDetails = () => {
         <CardIcon className="card-icon" />
         <span className="card-text">Card details</span>
       </div>
-     <span> <img src={ArrowIcon}  className="arrow-icon"/></span>
+     <span> <img src={ArrowIcon}  alt="logo" className="arrow-icon"/></span>
     
     </div>
   );

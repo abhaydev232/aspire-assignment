@@ -38,7 +38,7 @@ const CreditCard: React.FC<CreditCardProps> = ({ name, lastDigits, expiry, cvv, 
   return (
     <div className="card">
       <div className="card-header">
-       <img src={Home}/> aspire
+       <img src={Home} alt="logo"/> aspire
       </div>
 
       <div className="card-name">{name}</div>

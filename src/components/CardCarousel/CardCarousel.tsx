@@ -26,7 +26,7 @@ const CardCarousel = () => {
 
       <div className="carousel-window">
            <div className="card-number-show">
-      <span><img src={Show}/></span>
+      <span><img src={Show} alt="logo"/></span>
       <span className="show-card-no"  onClick={() => setVisible(!visible)}> Show card number</span>
     </div>
         <div

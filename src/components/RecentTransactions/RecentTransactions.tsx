@@ -36,19 +36,19 @@ export default function RecentTransactions() {
       <div className="rtx-card-header">
         <span className="rtx-icon"><Trx/></span>
         <span className="text-head">Recent transactions</span>
-        <span className="arrow-up-ico"><img src={Arrowup}/></span>
+        <span className="arrow-up-ico"><img src={Arrowup} alt="logo"/></span>
       </div>
       <div className="rtx-card-content">
         {transactions.map((tx) => (
           <div key={tx.id} className="rtx-transaction">
             <div className={`rtx-transaction-icon ${tx.iconColor}`}>
-                <img src={tx.ico}/>
+                <img src={tx.ico} alt="logo"/>
             </div>
             <div className="rtx-transaction-details">
               <span className="rtx-title">{tx.title}</span>
               <p className="rtx-date">{tx.date}</p>
               <div className="rtx-description">
-               <div className="img-bsns"> <img src={Bsns}/> </div> 
+               <div className="img-bsns"> <img src={Bsns} alt="logo"/> </div> 
                <div>{tx.description}</div>
                </div>
             </div>
